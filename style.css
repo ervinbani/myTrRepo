@@ -1,9 +1,13 @@
-body{
-}
+
+.container{
+  display: flex;
+  justify-content:center;
+}  
+
 
 #idData, #idCapitale{
   width:100px;
-  float:left;
+  
   margin: 3px;
 }
 .border{
