@@ -6,7 +6,7 @@ $(document).ready(function(){
         $("#idCapitale").html("");
         
         var c=parseInt($("#idCapIniziale").val());
-        if(c<0||c==0){
+        if(c<1){
             alert("Valore non valido, inserisci un numero positivo");
 
         }
