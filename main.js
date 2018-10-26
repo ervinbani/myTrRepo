@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
-  
+    
+    //funzione che rileva  il dato e crea i calcoli al click del button
     $("#idbtn").click(function(){
         $("#idData").html("");
         $("#idCapitale").html("");
@@ -23,6 +24,8 @@ $(document).ready(function(){
         $("#idCapIniziale").val("");
 
     });
+
+    //funzione che rileva il dato al press del tasto invio
     $("#idCapIniziale").keypress(function(e) {
         if (e.which == 13) {
             $("#idData").html("");
