@@ -16,7 +16,10 @@
   border:1px solid blue;
 
 }
+body{
+  background:lightgrey; 
+}
 .bg_grey{
-  background:grey; 
+  background:white; 
   border-radius:5px;
 }
