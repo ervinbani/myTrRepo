@@ -3,9 +3,20 @@
 #idData, #idCapitale{
   width:100px;
   float:left;
-  margin: 3px;
+  margin-left: 40%;
+
+}
+#idCapitale{
+  width:100px;
+  float:left;
+  margin-left: 3px;
+
 }
 .border{
   border:1px solid blue;
 
+}
+.bg_grey{
+  background:grey; 
+  border-radius:5px;
 }
