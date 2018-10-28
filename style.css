@@ -14,6 +14,7 @@
 }
 .border{
   border:1px solid blue;
+  
 
 }
 body{
@@ -21,5 +22,10 @@ body{
 }
 .bg_grey{
   background:white; 
+  border-radius:5px;
+}
+#idCapIniziale{
+  border:4px solid blue;
+  
   border-radius:5px;
 }
